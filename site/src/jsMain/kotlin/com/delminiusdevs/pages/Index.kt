@@ -1,6 +1,7 @@
 package com.delminiusdevs.pages
 
 import androidx.compose.runtime.*
+import com.delminiusdevs.sections.MainSection
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
 import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.ui.Alignment
@@ -16,6 +17,6 @@ fun HomePage() {
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-
+        MainSection()
     }
 }
